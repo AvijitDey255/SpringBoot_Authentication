@@ -1,0 +1,116 @@
+# ================================
+# Spring Boot / Java
+# ================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java archives
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ================================
+# Maven
+# ================================
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ================================
+# IDE - IntelliJ IDEA
+# ================================
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ compiler
+out/
+
+# ================================
+# IDE - Eclipse
+# ================================
+
+.classpath
+.project
+.settings/
+.factorypath
+
+# ================================
+# IDE - VS Code
+# ================================
+
+.vscode/
+*.code-workspace
+
+# ================================
+# OS Files
+# ================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ================================
+# Spring Boot
+# ================================
+
+# Application logs
+logs/
+*.log
+
+# Spring Boot generated files
+.springBeans
+.sts4-cache/
+
+# ================================
+# Environment / Secrets
+# ================================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ================================
+# Test / Coverage
+# ================================
+
+coverage/
+jacoco/
+*.exec
